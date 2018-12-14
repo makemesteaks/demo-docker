@@ -16,7 +16,3 @@ def kittens():
             for i in cats_dict[random_cat]:
                 yield i + '\n'
     return Response(print_kittens(), mimetype="text/plain")
-
-
-#if __name__ == "__main__":
-#    app.run(host='0.0.0.0')
